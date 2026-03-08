@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Css Animation</title>
+    <link rel='stylesheet' href='style.css'>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+.animated-box { background: red; width: 100px; height: 100px; animation: slide 2s infinite; }
+@keyframes slide { 0% { transform: translateX(0); } 50% { transform: translateX(100px); } 100% { transform: translateX(0); } }
+</style>
+</head>
+<body>
+    <h1>Css Animation</h1>
+    <div class='animated-box'>Animated</div>
+</body>
+</html>
+

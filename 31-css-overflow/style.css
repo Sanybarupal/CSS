@@ -1,0 +1,2 @@
+﻿body { font-family: Arial, sans-serif; margin: 20px; }
+.overflow-box { width: 200px; height: 100px; overflow: scroll; border: 1px solid #ccc; }

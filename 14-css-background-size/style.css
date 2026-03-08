@@ -1,0 +1,3 @@
+﻿body { font-family: Arial, sans-serif; margin: 20px; }
+.size-cover { background-image: url('image.jpg'); background-size: cover; height: 100px; }
+.size-contain { background-image: url('image.jpg'); background-size: contain; height: 100px; }
